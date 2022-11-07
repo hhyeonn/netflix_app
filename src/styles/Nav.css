@@ -1,0 +1,32 @@
+.nav{
+    z-index: 1;
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;height: 30px;
+    padding: 20px;
+    display: flex;/* 나란히 */
+    justify-content: space-between;/* 양쪽에 */
+    align-items: center;
+    transition: all 0.5s ease-in 0s;
+}
+.nav__black{background-color: #111;}
+.nav__logo{
+    position: fixed;
+    left: 40px;width: 80px;
+    object-fit: contain;/* 가로값에 맞게 이미지 맞춤 */
+}
+.nav__avatar{
+    position: fixed;
+    right: 40px;width: 30px;
+    object-fit: contain;
+}
+.nav__input{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 5px;
+    color: #fff;
+}
